@@ -1,0 +1,50 @@
+{
+  "name": "@hacimertgokhan/lucide-icon-picker",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "keywords": ["react", "icons", "lucide"],
+  "author": "Hacı Mert Gökhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hacimertgokhan/lucide-icon-picker"
+  },
+  "bugs": {
+    "url": "https://github.com/hacimertgokhan/lucide-icon-picker/issues"
+  },
+  "homepage": "https://github.com/hacimertgokhan/lucide-icon-picker#readme",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "next": ">=13",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.9.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.3",
+    "@types/react": "^18.3.12",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0"
+  }
+}
